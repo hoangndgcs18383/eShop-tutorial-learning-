@@ -13,5 +13,11 @@ namespace eShopSolution.Data.Entities
         public int ViewCount { set; get; }
         public DateTime DateCreated { set; get; }
 
+        //References
+        public List<ProductInCategory> ProductInCategories { get; set; }
+
+        public List<OrderDetail> OrderDetails { get; set; }
+
+        public List<ProductTranslation> ProductTranslations { get; set; }
     }
 }
